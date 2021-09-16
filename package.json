@@ -1,0 +1,24 @@
+{
+  "name": "async-javascript",
+  "version": "1.0.0",
+  "description": "Working with async on JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/00-callback/index.js",
+    "callback:challenge": "node src/00-callback/challenge.js",
+    "promise": "node src/01-promise/index.js",
+    "promise:challenge": "node src/01-promise/challenge.js",
+    "async": "node src/02-async_await/index.js",
+    "async:challenge": "node src/02-async_await/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "Bubu",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
